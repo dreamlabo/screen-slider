@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
             topLetters.forEach((letter, index) => {
                 setTimeout(() => {
                 letter.classList.add("active");
-            }, (index + 1) * 300)
+            }, (index + 1) * 150)
         })
 
         setTimeout(() => {

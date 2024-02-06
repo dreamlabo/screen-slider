@@ -67,20 +67,10 @@ body {
     bottom: 0;
 }
 
-/* @media screen and (max-width: 550px) {
-    .top-logo-letters {
-        font-size: 56px; 
-    }
-
-    .logo-bottom {
-        font-size: 16.6px;
-    }
-} */
-
 .top-logo-letters.active {
     bottom: 40vh;
     opacity: 0;
-    transition: ease-in .8s;
+    transition: ease-in .6s;
 }
 
 .logo-bottom.animate-up {
